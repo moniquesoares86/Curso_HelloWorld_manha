@@ -2,6 +2,7 @@
  margin:0;
  padding:0;
 }
+
 body{
  font-size: 16px;
  font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -27,38 +28,87 @@ h1{
  color: #fff;
 }
 
+/*links gerais*/
 a {
  text-decoration: none;
 }
 
-a:link,a:visited {
+a:link, a:visited {
+ color:#f7b600;
+}
+
+a:hover{
+ text-decoration: underline;
+}
+
+/*links especificos*/
+nav a:link, nav a:visited {
  color:#fff;
  padding: 8px 12px;
 }
 
-a:hover {
+nav a:hover {
+ text-decoration: none;
  color:#f7b600;
  background:#fff;
 }
 
 section {
-width: 920px;
-margin: 0 auto
+ width: 920px;
+ margin: 0 auto;
+ padding: 15px;
 }
 
 #post{
-width: 660px;
-float: left;
+ width: 660px;
+ float: left;
 }
 
 #sidebar{
-width: 240px;
-float: right;
+ width: 240px;
+ float: right;
 }
 
 footer{
-clear: both;
-text-align: center;
-background: #ccc;
-padding: 15px;
+ clear: both;
+ text-align: center;
+ background: #ccc;
+ padding: 15px;
+}
+
+.postagem {
+ padding: 20px;
+ margin-bottom: 20px;
+ background: white;
+}
+
+img {
+ width: 620px;
+}
+
+.dataPost{
+ font-size: 0.8em;
+ border-bottom: 1px solid #f4f4f4;
+ padding-bottom: 10px;
+ margin-bottom: 10px;
+ display: block;
+ padding: 10px;    
+}
+
+.conteudo-lateral{
+ background: #fff;
+ padding: 10px;
+ margin-bottom: 20px;
+}
+
+h3{
+ color: #565656;
+ background: #ccc;
+ padding: 5px;
+}
+
+.texto.lateral{
+ font-size: 0.8em;
+ padding: 5px;
+    
 }
